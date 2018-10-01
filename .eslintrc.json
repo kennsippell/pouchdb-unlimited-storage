@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+     "no-throw-literal": "off",
+     "max-len": [1, 300],
+     "no-console": 0,
+     "global-require": "off",
+     "no-use-before-define": ["error", { "functions": false }]
+   },
+   "env": {
+     "browser": false,
+     "node": true
+   }
+ }

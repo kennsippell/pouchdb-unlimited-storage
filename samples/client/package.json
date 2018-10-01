@@ -1,0 +1,15 @@
+{
+  "name": "pouchdb-unlimited-storage-consumer",
+  "version": "1.0.0",
+  "description": "A sample which uses the pouchdb-unlimited-storage package",
+  "main": "samples/client/index.js",
+  "author": "Kenn Sippell",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "browser-sync": "^2.24.7",
+    "chai": "^4.2.0",
+    "gulp": "^3.9.1",
+    "mocha": "^5.2.0",
+    "pouchdb-browser": "^7.0.0"
+  }
+}

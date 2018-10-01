@@ -1,0 +1,3 @@
+dist/**/*
+samples/extension/**/pouchdb-unlimited-storage-extension.js
+samples/client/dist/*

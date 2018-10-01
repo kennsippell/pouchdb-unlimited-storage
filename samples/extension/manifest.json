@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Medic Mobile",
+  "version": "0.1",
+  
+  "description": "Allows unlimited persistent storage for Medic Mobile domains.",
+
+  "background": {
+    "scripts": ["dist/pouchdb-unlimited-storage-extension.js"],
+    "persistent": false
+  },
+  "permissions": ["unlimitedStorage"],
+  "offline_enabled": true,
+  "externally_connectable": {
+    "matches": [
+      "http://localhost:8080/*"
+    ]
+  }
+}

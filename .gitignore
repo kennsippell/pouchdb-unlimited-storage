@@ -1,0 +1,6 @@
+node_modules/
+.vscode/
+dist/
+samples/extension/dist/
+samples/client/dist/
+samples/client/node_modules/
