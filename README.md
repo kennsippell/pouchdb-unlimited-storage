@@ -22,4 +22,4 @@ Storage limits for PouchDB + IndexedDB are limited to about 6% of the available 
     await db.put({ _id: id, title: 'New Object' });
     await unlimitedPouch('database').get(id);
 
-Project contains [samples](tree/master/samples/) of a Chrome extension which requests `unlimitedStorage` and a sample client application which uses the library. This project is a proof of concept and not production ready. Works for most basic scenarios including `replicate`, `sync`, etc.
+Project contains [samples](samples/) of a Chrome extension which requests `unlimitedStorage` and a sample client application which uses the library. This project is a proof of concept and not production ready. Works for most basic scenarios including `replicate`, `sync`, etc.
